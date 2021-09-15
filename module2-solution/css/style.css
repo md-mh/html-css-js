@@ -1,0 +1,41 @@
+body{
+    margin: 30px;
+}
+h1{
+    text-align: center;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#menu div{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.chicken{
+    background-color: #D59898;
+    position: absolute;
+    top: -21px;
+    right: -1px;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+.beef{
+    background-color: #C14543;
+    color: white;
+    position: absolute;
+    top: -21px;
+    right: -1px;
+    border: 1px solid black;
+    padding: 5px 45px;
+}
+.sushi{
+    background-color: #E5D198;
+    position: absolute;
+    top: -21px;
+    right: -1px;
+    border: 1px solid black;
+    padding: 5px 40px;
+}
