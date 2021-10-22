@@ -1,3 +1,5 @@
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
 
 function click() {
     const text = document.getElementById('text').value;
